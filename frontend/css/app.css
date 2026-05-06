@@ -1,0 +1,42 @@
+/* ===== APP TABS ===== */
+.app-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 28px;
+  background: #0a0f1c;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 4px;
+  width: fit-content;
+}
+
+.app-tab {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
+  border-radius: 9px;
+  border: none;
+  background: transparent;
+  color: #475569;
+  font-family: 'Syne', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s;
+  letter-spacing: 0.2px;
+}
+
+.app-tab:hover {
+  color: #94a3b8;
+}
+
+.app-tab-active {
+  background: #1e293b;
+  color: #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.app-tab-active svg {
+  stroke: #6366f1;
+}
