@@ -48,3 +48,29 @@ This project implements the following protocols:
 ---
 
 ## 📁 Project Structure
+
+MangaHub/
+├── frontend/ # React frontend
+│ ├── src/
+│ │ ├── api/ # API calls
+│ │ ├── components/ # UI components
+│ │ ├── pages/ # Pages (login, manga list)
+│ │ └── css/ # Styles
+│ └── package.json
+│
+├── backend/ (coming soon) # Go backend services
+│ ├── cmd/
+│ ├── internal/
+│ └── proto/
+│
+└── README.md
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/mangahub.git
+cd mangahub
